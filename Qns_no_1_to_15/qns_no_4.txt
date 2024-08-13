@@ -1,0 +1,62 @@
+The features of OOP are given below:
+1. Objects:
+Objects are instances of classes that represent real-world entities within a program.
+Each object contains both data (attributes) and functions (methods) that define its behavior. 
+Objects serve as the building blocks of an OOP system, interacting with one another to perform tasks.
+
+2. Classes:
+A class is a blueprint or template for creating objects.
+It defines a set of attributes and methods that the created objects will have.Classes 
+encapsulate data for the object and define behaviors that objects of the class can perform, 
+promoting code organization and reuse.
+
+3. Encapsulation:
+Encapsulation involves bundling the data (attributes) and methods (functions) that operate on the data 
+into a single unit, known as a class.This feature restricts direct access to some components of the class, 
+protecting the integrity of the data and ensuring controlled interaction with the object's attributes.
+
+4. Abstraction:
+Abstraction allows developers to focus on the essential characteristics of an object by exposing only the 
+necessary details while hiding the complex implementation.This simplifies the interaction with objects and
+ makes the design of the program more intuitive.
+
+5. Inheritance:
+Inheritance enables a new class (derived class) to inherit properties and behaviors from an existing class 
+(base class).This mechanism promotes code reuse and creates a natural hierarchy between classes, making it 
+easier to manage and extend the codebase.
+
+6. Polymorphism:
+Polymorphism allows objects of different classes to be treated as instances of a common superclass, enabling 
+a single interface to represent a general class of actions.This feature enhances flexibility and allows for 
+method overloading and overriding, where different methods can share the same name but operate differently based 
+on the object they are called on.
+
+The lexical components of C++ are given below:
+
+1. Keywords: 
+These are reserved words with predefined meanings in C++. Examples include int, for, if, class.public, 
+and many more. You cannot use keywords for any other purpose in your code. 
+
+2. Identifiers: 
+These are user-defined names given to variables, functions, classes, and other entities in your program.
+Identifiers must follow specific naming rules (e.g., start with a letter or underscore, contain letters, 
+numbers, and underscores). 
+
+3. Literals: 
+These represent fixed values directly included in your code. Examples include integer literals (e.g., 10,-25), 
+floating-point literals (e.g., 3. 14), character literals (e.g., 'a', '\n' ), string literals (e.g., "Hello world!"). 
+
+4. Operators: 
+Operators are symbols that perform operations on values. Examples include arithmetic operators(+, -,*, /), comparison 
+operators(==, ! =, <, >), logical operators (&&, I I, ! ), and many more. 
+
+5. Punctuators: Punctuators are special symbols used to separate statements, control flow, and define code 
+structure.Examples include commas (, ), semicolons (; ), parentheses (( ) , {}, [ ]), braces, and brackets. 
+
+6. Comments: Comments are lines of text ignored by the compiler. They are used to provide explanations and notes 
+within the code to improve readability and maintainability. There are single-line comments (/ /) and multi-line comments 
+(/ * ...  */). 
+
+7. Whitespace: 
+Spaces, tabs, and newlines are generally ignored by the compiler but improve code readability.However, whitespace 
+can be significant in certain contexts, like separating tokens. 

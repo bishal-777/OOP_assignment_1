@@ -1,0 +1,15 @@
+The advantages and disadvantages of OOP are given below:
+
+Advantages:
+1. Redundant code is eliminated by various techniques like inheritance and templates.
+2. It secures the data through the help of access specifiers, which restricts the access of data
+    outside of the user desired function.
+3. Code reusability is much easier. 
+4. Upgrading and maintenance is much easier. 
+5. Models real life problem perfectly. 
+
+Disadvantages:
+1. Compiler and runtime overhead is high because OOP requires long time to compilation.
+2. Benefits in long run while managing large software projects. 
+3. The message passing between many objects is complex and can be hard to trace.
+4. Requires mastery in software engineering and programming methodology.
