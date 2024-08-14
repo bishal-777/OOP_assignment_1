@@ -1,0 +1,9 @@
+Q. What are static member functions ? List out its properties.
+
+A static member function is a member function of a class that is associated with the class itself rather than with any specific object of the class.
+
+It's properties are as follows:
+(1)A static function can have access to only other static members.
+(2)A static function can be called using class name instead of objects.
+(3)A static member function do not have acess to this pointer'->'of the class.
+(4)A static member function cannot be declared virtual. 

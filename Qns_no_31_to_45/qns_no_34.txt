@@ -1,0 +1,11 @@
+Q. What are static data members ? List out its properties.
+
+Static data members are the variables in class which only has a single copy in that class.
+
+The properties of static data members are as follows:
+(1)All static variables are initialized to zero when the first object is created.
+(2)The type and scope of each static member variable must be defined outside the class.
+(3)When we precede a member variables's delclaration with static,we are telling the compilere that there 
+    only exists one copy of that variable,So static variables are called class variables.
+(4)Individual copies of static member variables  are not made  for each object.So all objects of that class
+    use single variable;
