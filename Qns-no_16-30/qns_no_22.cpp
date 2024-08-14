@@ -9,7 +9,9 @@ void Tempre(double *t1,double *t2){
     }
 }
 int main(){
-    int t1=34.45,t2=39.64;
-    cout<<"Before using function Tempre:"
+    double t1=34.45,t2=39.64;
+    cout<<"Before using function Tempre:\tt1="<<t1<<"\tt2="<<t2<<endl;
+    Tempre(&t1,&t2);
+    cout<<"After using function Tempre:\tt1="<<t1<<"\tt2="<<t2<<endl;
     return 0;
 }

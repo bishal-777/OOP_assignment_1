@@ -1,0 +1,42 @@
+Write syntax for class and objects. Explain briefly about access specifier.
+
+Syntax for class and objects :
+Class class-name
+{
+    //access specifier
+data member1;
+member function_1;
+...
+...
+data membern;
+member function_n
+
+};
+Int main()
+{
+Class_name object_name;
+// code
+}
+
+
+Access specifiers are one of the major components of OOP. It is used to grant access to the
+member functions and data members of the class. There are three types of access specifiers
+in OOP. They are:
+
+1. Private access specifiers :
+Private access specifiers are special types of access specifiers. They are
+used to keep the data member and member functions private and it grants access to
+those data member and member functions within that class only. It denies if member
+functions and data members are called outside the class.
+
+2. Public access specifiers :
+Public access specifiers are used to grant access to data members and
+member functions from any part of the code. It keeps data members and member functions
+publically available so that they can be fetched from any part of our code.
+
+3. Protected access specifiers:
+Protected access specifiers are the special type of access specifiers. They
+are used to keep the data members and member functions protected and these can
+be accessed within the class and other classes. We need to grant access to other
+classes if we need to use the data members and member functions stored in
+protected access specifiers.
