@@ -1,3 +1,4 @@
+//Wap to find greatest among two data member using the concept of friend function. 
 #include<iostream>
 using namespace std;
 

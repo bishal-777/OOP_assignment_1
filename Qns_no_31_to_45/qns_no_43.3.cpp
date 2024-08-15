@@ -1,4 +1,3 @@
-//What is copy constructor?WAP to show the use of copy constructor. 
 //Copy constructor:This constructor initializes data members by copying data members of another object initialized by another type of constructor.
 #include<iostream>
 #include<string.h>

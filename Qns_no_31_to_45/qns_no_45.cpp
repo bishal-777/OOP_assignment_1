@@ -1,29 +1,32 @@
+//WAP to initialize an object of class with parameterized constructor and copy this object of class into another object using copy constructor. 
 #include<iostream>
+#include<string.h>
 using namespace std;
 
-class student{
-    char name,roll;
+class employee{
+    int emp_id;
+    int salary;
     public:
-    student(char n,char r){
-        name=n;
-        roll=r;
+    employee(int e,int s){
+        emp_id=e;
+        salary=s;
     }
-
-    student(student s){
-        name=s.name;
-        roll=s.roll;
+    
+    employee(employee &e){
+        emp_id=e.emp_id;
+        salary=e.salary;
     }
-    void display();
+    void display(){
+        cout<<"Employee ID:"<<emp_id<<endl;
+        cout<<"Salary:\t"<<salary<<endl;
+    }
 };
 
-void student::display(){
-    cout<<"Name:\t"name<<"Roll no:\t"<<roll<<endl;
-}
-
 int main(){
-    student s1('bishal','ACE080BCT024');
-    student s2.(s1);
-    s1.display();
-    s2.display();
+    employee e1(24,100000);
+    employee e2(e1);
+    e1.display();
+    e2.display();
     return 0;
 }
+ 

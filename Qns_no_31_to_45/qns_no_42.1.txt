@@ -1,0 +1,15 @@
+What is constructor? list out its propewrties.wap to calculate volume of box.use constructor to initialize l,b,h. 
+
+A constructor is a special member function which initializes the objects of its class. 
+
+properties of  constructors: 
+
+1. Constructor has same name as that of its class name. 
+2. It should be declared in public section of the class. 
+3. It is invoked automatically when objects are created. 
+4. It cannot return any value because it does not have a return type even void. 
+5. It cannot have default arguments. 
+6. It cannot be a virtual function and we cannot refer to its address. 
+7. It cannot be inherited. 
+8. It makes implicit call to operators new and delete when memory allocation is 
+required. 

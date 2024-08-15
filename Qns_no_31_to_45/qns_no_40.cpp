@@ -1,3 +1,4 @@
+//WAP to add data member of two different class using the concept of freind function. (Bridging classes.) 
 #include<iostream>
 using namespace std;
 class second;

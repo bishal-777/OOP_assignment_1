@@ -1,4 +1,5 @@
-//This program claculates pressure difference(took reference from class 12 bernauli theorem qns)
+//What are friend classes ? WAP to show use of friend class. 
+//Friend classes in C++ are classes that can access the private and protected members of another class.
 #include<iostream>
 using namespace std;
 

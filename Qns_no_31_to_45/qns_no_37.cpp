@@ -1,5 +1,11 @@
-//
+/*Why do we need friend function? List its properties. Wap to add one data member of two different class using the concept of friend function. 
 
+Friend functions are used in C++ to allow a non-member function or another class to access private and protected members of a class. 
+Properties: 
+Not Member Functions: Defined outside the class but declared inside. 
+Access Private and Protected Members: Can access private and protected data. 
+Not Inherited: Not inherited by derived classes. 
+No this Pointer: Does not have a this pointer. */
 #include<iostream>
 using namespace std;
 class c2;
