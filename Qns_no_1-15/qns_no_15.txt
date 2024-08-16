@@ -1,0 +1,77 @@
+Differentiate between: 
+
+1. C structure and C++ structure. 
+
+                             C structure                                                                          C++ structure 
+
+Syntax:              Defined using the struct keyword.                                                   Defined using the struct keyword (same as C), but 
+                                                                                                         can use the class keyword for more advanced features. 
+
+Members:             All members are public by default.                                                  All members are public by default, but can use private 
+                                                                                                         and protected access specifiers. 
+                                                                                                         
+Member Functions:    Cannot have member functions.                                                       Can have member functions.
+
+Inheritance:         Does not support inheritance.                                                       Supports inheritance. 
+
+ Access Modifiers:	 No support for access control; everything is public.                                Can use access specifiers (public, private, protected). 
+
+
+
+2. C++ structure and class. 
+
+                     C++ Structure                                                                        Class
+
+Default Access:      Members are public by default.                                                       Members are private by default. 
+
+Purpose:             Typically used for simple data structures.                                           Typically used for more complex data types and encapsulation
+ 
+Inheritance:         Can be used in inheritance, but by default,                                          Can be used in inheritance, and by default,  
+                     inheritance is public.                                                                inheritance is private.
+
+
+3. Macros and inline functions. 
+
+                     Macros                                                                                Inline Functions
+
+Definition:        Preprocessor directives defined using #define.                                         Functions defined using the inline keyword.
+
+Compilation:        Replaced by the preprocessor before compilation.                                       Integrated into the code during compilation. 
+
+
+4. C++ structure and union. 
+
+                    C++ Structure                                                                           C++ Union: 
+ Definition:        A data type that can hold multiple members,                                            A data type that can hold multiple members, 
+                    where each member has its own memory location.                                         but only one member can occupy the memory at any one time. 
+
+Memory Allocation:  Each member has its own memory space, so the total 
+                    memory used is the sum of all members' sizes.                                          Only enough memory to hold the largest member is allocated. 
+                                                                                                            
+ Access:            All members can be accessed simultaneously.                                            Only one member can be accessed at a time, and updating one 
+                    member may affect the others. 
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 

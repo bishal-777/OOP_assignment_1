@@ -1,0 +1,12 @@
+Inline functions are the functions that start with the keyword “inline” whose code is copied in the
+called location instead of jumping from the calling function to the called function.
+
+Advantages of inline functions are as follows:
+1. It increases performance of program.
+2. it doesnot require function calling overhead.
+3.It saves overhead of return of result from called function to calling function.
+
+We canot use inline functions in follwing conditions:
+1. For large function.
+2. For functions returning values if a loop , a 'switch' or a 'goto' exists.
+3. If inline functions are recursive.
