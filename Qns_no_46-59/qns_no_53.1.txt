@@ -1,0 +1,12 @@
+1. Write a syntax for DMA for objects and object array.WAP to show DMA for object and object array. 
+
+Syntax for DMA for object: 
+
+class_name *object_ptr; 
+object_ptr=new class_name; 
+
+
+Syntax for DMA for object array: 
+
+class_name *object_ptr; 
+object_ptr=new class_name[size]; 

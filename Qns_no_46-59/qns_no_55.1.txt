@@ -1,0 +1,7 @@
+Q. What is this pointer?what are its importance?wap showing use of this pointer. 
+
+This pointer is pointer that is accessible only inside the member functions of a class 
+and points to the object who has called this member function. 
+
+This pointer stores the address of the class instance, to enable pointer access of the 
+members to the member functions of the class. 

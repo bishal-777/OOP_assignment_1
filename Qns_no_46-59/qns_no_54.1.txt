@@ -1,0 +1,38 @@
+Q. List the properties for constant member function and constant object.
+Write their syntax.also write a program to show constant member functions and constant object. 
+
+Characteristics of constant member functions: 
+
+1.Declaration with const Keyword: 
+A constant member function is declared with the const keyword at the end of its signature. 
+
+2.Cannot Modify Member Variables: 
+Inside a constant member function, you cannot modify any non-mutable member variables of the class. 
+
+3.Can Call Other Constant Member Functions: 
+A constant member function can call other constant member functions of the same class. 
+
+4.Cannot Call Non-constant Member Functions: 
+A constant member function cannot call non-constant member functions. 
+
+5.Can Modify mutable Members: 
+A constant member function can modify member variables that are declared with the mutable keyword. 
+
+6.Can Access Static Members: 
+A constant member function can access static member variables and call static member functions. 
+
+7.Use with Overloading: 
+You can overload member functions based on their const-ness. 
+
+ 
+
+
+
+
+ 
+
+ 
+
+8.Const Object Calls Only Const Member Functions: 
+
+A constant object (an object declared with the const keyword) can only call constant member functions. 

@@ -1,0 +1,12 @@
+Q. What is destructor?why do we need it ?List its characterstics.WAP to show destructor. 
+
+Destructors are the member functions tha are used for deallocation of memory initialized by constructors.
+
+We need it to cleanup the dynamically allocated memory.
+
+The characteristics of destructor are as follows:
+(1) The destructor must have same name as class precided by tilde'~''
+(2) The destructor has no return type
+(3) There can be only one destructor in a class.
+(4) Destructor cant be overloaded.
+(5) destructor cant be declared static.

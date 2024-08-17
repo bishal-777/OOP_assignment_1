@@ -1,0 +1,33 @@
+51. Differentiate between constructor and destructor. 
+
+Constructor	 
+
+1.Constructor helps to initialize the object of a class. 
+2.It is declared as :
+className( arguments if any ){Constructor’s Body }. 
+3.Constructor can either accept arguments or not.	 
+4.A constructor is called when an instance or object of a class is created.	 
+5.Constructor is used to allocate the memory to an instance or object. 
+6.Constructor can be overloaded.	 
+7.The constructor’s name is same as the class name.	 
+8.In a class, there can be multiple constructors.	 
+9.There is a concept of copy constructor which is used to initialize an object from another object.	 
+10.They are often called in successive order. 
+
+ 
+
+ 
+
+ Destructor 
+
+1.Destructor is used to destroy the instances. 
+2.It is declared as :
+~ className( no arguments ){ }. 
+3.It can’t have any arguments. 
+4.It is called while object of the class is freed or deleted. 
+5.It is used to deallocate the memory of an object of a class. 
+6.It can’t be overloaded. 
+7.Here, its name is also same as the class name preceded by the tiled (~) operator. 
+8. In a class, there is always a single destructor. 
+9.Here, there is no copy destructor concept. 
+10.They are often called in reverse order of constructor. 
